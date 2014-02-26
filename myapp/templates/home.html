@@ -1,0 +1,13 @@
+<html>
+
+    <h1>Enter stuff</h1>
+
+    <form method="POST" action=".">
+        <input name="input" type="text" />
+        {% csrf_token %}
+    </form>
+
+    <h2>Response</h2>
+    <p>{{ response }}</p>
+
+</html>
